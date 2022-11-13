@@ -1,0 +1,74 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2022-11-13T11:34:36.094Z",
+    "redirects": [
+        {
+            "description": "Wikipedia Mobile Destroyer",
+            "exampleUrl": "https://en.m.wikipedia.org/wiki/Curb_cut_effect",
+            "exampleResult": "https://en.wikipedia.org/wiki/Curb_cut_effect",
+            "error": null,
+            "includePattern": "https://*.m.wikipedia.org/wiki/*",
+            "excludePattern": "",
+            "patternDesc": "This redirects mobile Wikipedia to the desktop version",
+            "redirectUrl": "https://$1.wikipedia.org/wiki/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Twitter Redirector",
+            "exampleUrl": "https://twitter.com/jack/status/20",
+            "exampleResult": "https://nitter.snopyta.org/jack/status/20",
+            "error": null,
+            "includePattern": "https://twitter.com/*",
+            "excludePattern": "",
+            "patternDesc": "Redirect to nitter",
+            "redirectUrl": "https://nitter.snopyta.org/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Reddit Redirect",
+            "exampleUrl": "https://www.reddit.com/r/196/",
+            "exampleResult": "https://libreddit.kavin.rocks/r/196/",
+            "error": null,
+            "includePattern": "https://www.reddit.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://libreddit.kavin.rocks/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Medium",
+            "exampleUrl": "https://medium.com/really-learn-programming/configuring-emacs-on-macos-a6c5a0a8b9fa",
+            "exampleResult": "https://scribe.rip/really-learn-programming/configuring-emacs-on-macos-a6c5a0a8b9fa",
+            "error": null,
+            "includePattern": "^https?://(?:[^\\.]+\\.){0,1}(?<!(link\\.|cdn\\-images\\-\\d+\\.))medium\\.com(/.*)?$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://scribe.rip$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
