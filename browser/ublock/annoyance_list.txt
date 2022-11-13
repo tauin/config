@@ -524,30 +524,6 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[hre
 ||redd.it/*.m3u8^$xhr,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 ||strapi.reddit.com^$xhr,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 
-! YOUTUBE
-! YT consent
-youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
-youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-! YT login
-youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
-youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
-youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
-
-! Removes Mixes from the Main Page
-youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
-! Removes Mixes from the right side panel
-youtube.com##ytd-compact-radio-renderer
-! Removes Mixes from search results
-youtube.com##ytd-radio-renderer
-! Removes "YouTube" (Music) playlists from the right side panel
-youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
-! Suggested channels by name
-youtube.com##ytd-rich-item-renderer:has(#byline-container:has-text(/BBC|CNN|FOX|NBC/))
-! Recommend after pause
-youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
-~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
-
 ! TWITTER
 ! [Oct 2022] from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_twitter
 ! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
