@@ -1,0 +1,42 @@
+{
+	"[Windows]": {
+		"Visual Studio Code": "Microsoft.VisualStudioCode",
+		"Visual Studio":      "Microsoft.VisualStudio.2022.Professional",
+		"Windows Terminal":   "Microsoft.WindowsTerminal",
+		"Microsoft Teams":    "Microsoft.Teams",
+		"Jetbrains Toolbox":  "Jetbrains.Toolbox",
+		"Git":                "Git.Git",
+		"Python 3.11":        "Python.Python.3.11",
+		"Firefox":            "Mozilla.Firefox",
+		"Ungoogled Chromium": "eloston.ungoogled-chromium",
+		"Discord":            "Discord.Discord",
+		"qBittorrent":        "qBittorrent.qBittorrent",
+		"KeePassXC":          "KeePassXCTeam.KeePassXC",
+		"Steam":              "Valve.Steam",
+		"VLC Media Player":   "VideoLAN.VLC",
+		"Powertoys":          "Microsoft.Powertoys",
+		"7-zip":              "7zip.7zip",
+		"WinDirStat":         "WinDirStat.WinDirStat"
+	},
+	"[Linux]": {
+		"Visual Studio Code": "com.visualstudio.code",
+		"Firefox":            "org.mozilla.firefox",
+		"Discord":            "com.discordapp.Discord",
+		"FlatSeal":           "com.github.tchx84.Flatseal",
+		"Bottles":            "com.usebottles.bottles",
+		"Extension Manager":  "com.mattjakeman.ExtensionManager",
+		"KeePassXC":          "org.keepassxc.KeePassXC",
+		"Ungoogled Chromium": "com.github.Eloston.UngoogledChromium",
+		"Fragments":          "de.haeckerfelix.Fragments",
+		"Steam":              "com.valvesoftware.Steam",
+		"Prism Launcher":     "org.prismlauncher.PrismLauncher",
+		"Neovim":             "io.neovim.nvim",
+		"Black Box":          "com.raggesilver.BlackBox",
+		"GDM Manager":        "io.github.realmazharhussain.GdmSettings",
+		"Metadata cleaner":   "fr.romainvigier.MetadataCleaner",
+		"Firmware manager":   "org.gnome.Firmware",
+		"Gnome Boxes":        "org.gnome.Boxes",
+		"ghex":               "org.gnome.GHex"
+	},
+	"[Macintosh]": {}
+}
