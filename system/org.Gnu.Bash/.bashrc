@@ -34,7 +34,7 @@ shopt -s histappend cmdhist histverify autocd
 
 #OTHER
 set -o vi
-PS1="[λ]:~> "
+PS1="λ [\w]-> " # The same as powershell, without the git prompt ofc
 export EDITOR=nvim
 # shellcheck source=/dev/null
 if [ -f /etc/bash_completion ]; then
