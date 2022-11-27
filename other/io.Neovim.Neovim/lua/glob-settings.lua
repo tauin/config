@@ -3,6 +3,7 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 vim.o.scrolloff = 8
 vim.g.mapleader = " "
+vim.opt.showmode = false
 vim.opt.modeline = false
 --[[
 Modeline is a BIG NO NO, if you want user level

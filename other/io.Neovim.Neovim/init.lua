@@ -1,7 +1,7 @@
-require('settings.glob-settings') -- Settings across different configurations
+require('glob-settings') -- Settings across different configurations
 
 if vim.g.vscode then
-	require('settings.vscode-settings')
+	require('vscode-settings')
 else
-	require('settings.terminal-settings')
+	require('terminal-settings')
 end
